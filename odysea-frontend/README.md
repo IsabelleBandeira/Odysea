@@ -144,7 +144,7 @@ Pré-requisitos:
 Clone o repositório ou extraia o ZIP:
 
 ```bash
-git clone <url-do-seu-repositorio>
+git clone <https://github.com/IsabelleBandeira/Odysea>
 cd odysea-frontend
 npm install
 ```
@@ -233,18 +233,6 @@ npm run preview
 npm run lint
 ```
 
-## Prints recomendados para o PDF final
-
-- Tela de login com marca Odysea.
-- Validação do login com campos vazios ou e-mail inválido.
-- Dashboard em modo celular.
-- Dashboard em modo desktop.
-- Lista de entregas com filtros.
-- Detalhes de entrega com rota e linha do tempo.
-- Painel de IoT com latitude/longitude.
-- Tela de Segurança com explicação das práticas.
-- DevTools em modo mobile para comprovar responsividade.
-
 ## Como publicar na Vercel
 
 1. Suba o projeto para o GitHub.
@@ -258,23 +246,6 @@ npm run lint
 9. Faça o deploy.
 
 Para apresentação, recomenda-se deixar `VITE_USE_API=false` no deploy para garantir que o app funcione com mocks mesmo sem o backend online.
-
-## Como a entrega atende ao Tópico 4
-
-- Possui mais de 3 telas funcionais.
-- A interface é mobile-first e responsiva.
-- Não depende obrigatoriamente da API.
-- Os dados podem ser mockados e já estão mockados localmente.
-- O app permite demonstrar dashboard, lista e detalhes de rastreio.
-
-## Como a entrega atende ao Tópico 5
-
-- Possui sistema de login.
-- Usa senha com hash SHA-256 no fluxo mockado.
-- Aplica validação de entrada.
-- Aplica proteção de rotas.
-- Evita `dangerouslySetInnerHTML` para reduzir risco de XSS.
-- Documenta limitação da segurança no front-end.
 
 ## Observações finais
 
