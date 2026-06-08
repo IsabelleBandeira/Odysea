@@ -1,0 +1,7 @@
+[
+  { "entrega_id": 15, "latitude": 0, "longitude": 0 },
+  { "entrega_id": 15, "latitude": 10, "longitude": 15 },
+  { "entrega_id": 19, "latitude": 25, "longitude": 40 },
+  { "entrega_id": 14, "latitude": 50, "longitude": 80 },
+  { "entrega_id": 31, "latitude": 120, "longitude": 200 }
+]
