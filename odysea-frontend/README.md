@@ -6,15 +6,6 @@ O frontend foi desenvolvido para demonstrar as telas mobile/web responsivas e a 
 
 > Importante: os dados, usuários, rotas e eventos de rastreamento deste frontend são simulados. A autenticação também é uma simulação acadêmica executada no front-end para atender ao tópico de segurança da Global Solution.
 
-## Objetivo acadêmico
-
-Este repositório cobre a responsabilidade de front-end mobile/web responsivo e segurança mockada da aplicação Odysea.
-
-A entrega atende aos tópicos:
-
-- Tópico 4 - Implementação do Front-end Mobile.
-- Tópico 5 - Parte de Segurança da Aplicação.
-
 ## Funcionalidades implementadas
 
 - Login mockado com e-mail e senha.
